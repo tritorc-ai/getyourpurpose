@@ -200,9 +200,9 @@ export default function Home() {
                   <p style={{ margin: 0, fontSize: 14, color: "#dce1ff" }}>Few students, funded properly.</p>
                 </div>
               </div>
-              <div style={{ marginTop: 32, overflowX: "auto" }}>
-                <div style={{ display: "flex", minWidth: 820, position: "relative", paddingTop: 6 }}>
-                  <div style={{ position: "absolute", top: 15, left: 0, right: 0, height: 2, background: "rgba(255,221,184,.25)" }}></div>
+              <div style={{ marginTop: 32 }}>
+                <div className="flex flex-col md:flex-row md:min-w-[820px]" style={{ position: "relative", paddingTop: 6, gap: 16 }}>
+                  <div className="hidden md:block" style={{ position: "absolute", top: 15, left: 0, right: 0, height: 2, background: "rgba(255,221,184,.25)" }}></div>
                   {[
                     ["Application", "Fill the form with basic details", "#ffddb8"],
                     ["Screening", "We check eligibility and documents", "#ffddb8"],
@@ -211,7 +211,7 @@ export default function Home() {
                     ["Interview", "A short conversation with our team", "#ffddb8"],
                     ["Decision", "Final decision and grant confirmation", "#ffddb8"],
                   ].map(([title, desc, dot]) => (
-                    <div key={title} style={{ flex: 1, position: "relative", paddingRight: 16 }}>
+                    <div key={title} style={{ flex: 1, position: "relative" }}>
                       <span style={{ display: "block", width: 12, height: 12, borderRadius: 999, background: dot, position: "relative", zIndex: 1, marginBottom: 16 }}></span>
                       <p style={{ margin: 0, fontSize: 15, fontWeight: 700, color: "#ffffff" }}>{title}</p>
                       <p style={{ margin: "4px 0 0", fontSize: 13, lineHeight: "18px", color: "#b9c2ea" }}>{desc}</p>
