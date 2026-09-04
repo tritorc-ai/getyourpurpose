@@ -178,8 +178,8 @@ export default function About() {
                 </div>
                 <div style={{ minWidth: 0 }}>
                   <h3 style={{ margin: 0, fontSize: 20, lineHeight: "28px", fontWeight: 600, color: "#191c1e" }}>Omkar Mungekar</h3>
-                  <p style={{ margin: "2px 0 0", fontSize: 14, fontWeight: 600, color: "#855300" }}>Marketing lead, Tritorc</p>
-                  <p style={{ margin: "10px 0 0", fontSize: 16, lineHeight: "24px", color: "#534434" }}>Omkar produces Tritorc's technical documentation, product manuals and equipment catalogues alongside its marketing and social content, and manages the company's presence at international industry exhibitions. He runs communication for the programme.</p>
+                  <p style={{ margin: "2px 0 0", fontSize: 14, fontWeight: 600, color: "#855300" }}>Mechanical Engineer &amp; Marketer, Tritorc</p>
+                  <p style={{ margin: "10px 0 0", fontSize: 16, lineHeight: "24px", color: "#534434" }}>Helping industries and people connect with technical solutions, Omkar handles Tritorc's global marketing. He's also the founder of Project ALFA, a tech non-profit. All programme communication goes through him.</p>
                 </div>
               </div>
             </div>
