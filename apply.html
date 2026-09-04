@@ -1,0 +1,251 @@
+<!DOCTYPE html><html class="light" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Get Your Purpose - Application</title>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tailwind.css">
+</head>
+<body class="bg-surface-bright text-on-surface font-body-md text-body-md antialiased min-h-screen flex flex-col relative overflow-x-hidden">
+<!-- Ambient Background Element -->
+<div class="fixed top-0 left-0 w-full h-96 bg-gradient-to-b from-surface-container-high/30 to-transparent -z-10 pointer-events-none"></div>
+<!-- Minimal Header -->
+<header style="background:#ffffff;border-bottom:1px solid #e6e8ea">
+<div style="max-width:1200px;margin:0 auto;padding:0 16px;height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px">
+<a href="home.html" style="font-size:20px;font-weight:700;letter-spacing:-0.01em;color:#855300;text-decoration:none;white-space:nowrap">Get Your Purpose</a>
+<a href="home.html" style="display:inline-flex;align-items:center;height:44px;padding:0 16px;border-radius:8px;font-size:14px;font-weight:600;color:#534434;text-decoration:none">Cancel application</a>
+</div>
+</header>
+<main class="flex-grow w-full max-w-max-width mx-auto px-margin-mobile md:px-gutter pb-xl z-10 grid grid-cols-1 lg:grid-cols-12 gap-lg items-start">
+<div class="lg:col-span-8">
+<!-- Progress Stepper -->
+<nav aria-label="Progress" class="mb-lg mt-md">
+<ol class="flex items-center justify-between w-full overflow-hidden" role="list">
+<!-- Step 1 -->
+<li class="relative flex-1 group">
+<div aria-hidden="true" class="absolute inset-0 flex items-center">
+<div class="h-0.5 w-full bg-primary-container"></div>
+</div>
+<a class="relative flex h-8 w-8 items-center justify-center rounded-full bg-primary-container hover:bg-primary-container/80 ring-4 ring-surface-bright" href="#">
+<span class="material-symbols-outlined text-on-primary-container text-[16px] font-bold" style="font-variation-settings: &quot;FILL&quot; 1;">check</span>
+</a>
+<span class="absolute -bottom-6 left-0 text-xs font-label-sm text-primary-container font-bold hidden md:block">Eligibility</span>
+</li>
+<!-- Step 2 -->
+<li class="relative flex-1 group">
+<div aria-hidden="true" class="absolute inset-0 flex items-center">
+<div class="h-0.5 w-full bg-surface-dim"></div>
+</div>
+<a class="relative flex h-8 w-8 items-center justify-center rounded-full bg-surface-container-lowest border-2 border-primary-container ring-4 ring-surface-bright" href="#">
+<span class="text-primary-container font-label-sm text-label-sm">2</span>
+</a>
+<span class="absolute -bottom-6 left-1/2 -translate-x-1/2 text-xs font-label-sm text-on-surface-variant hidden md:block">Personal</span>
+</li>
+<!-- Step 3 -->
+<li class="relative flex-1 group">
+<div aria-hidden="true" class="absolute inset-0 flex items-center">
+<div class="h-0.5 w-full bg-surface-dim"></div>
+</div>
+<a class="relative flex h-8 w-8 items-center justify-center rounded-full bg-surface-container-lowest border-2 border-surface-dim ring-4 ring-surface-bright" href="#">
+<span class="text-on-surface-variant font-label-sm text-label-sm">3</span>
+</a>
+<span class="absolute -bottom-6 left-1/2 -translate-x-1/2 text-xs font-label-sm text-on-surface-variant hidden md:block opacity-50">Cover Letter</span>
+</li>
+<!-- Step 4 -->
+<li class="relative flex-1 group">
+<div aria-hidden="true" class="absolute inset-0 flex items-center">
+<div class="h-0.5 w-full bg-surface-dim"></div>
+</div>
+<a class="relative flex h-8 w-8 items-center justify-center rounded-full bg-surface-container-lowest border-2 border-surface-dim ring-4 ring-surface-bright" href="#">
+<span class="text-on-surface-variant font-label-sm text-label-sm">4</span>
+</a>
+<span class="absolute -bottom-6 left-1/2 -translate-x-1/2 text-xs font-label-sm text-on-surface-variant hidden md:block opacity-50">Documents</span>
+</li>
+<!-- Step 5 -->
+<li class="relative group">
+<a class="relative flex h-8 w-8 items-center justify-center rounded-full bg-surface-container-lowest border-2 border-surface-dim ring-4 ring-surface-bright" href="#">
+<span class="text-on-surface-variant font-label-sm text-label-sm">5</span>
+</a>
+<span class="absolute -bottom-6 right-0 text-xs font-label-sm text-on-surface-variant hidden md:block opacity-50">Review</span>
+</li>
+</ol>
+</nav>
+<!-- Main Card Container -->
+<div class="bg-surface-container-lowest rounded-xl shadow-soft p-md md:p-lg border border-surface-container-high/50 mt-sm">
+<!-- Step 1: Eligibility Content (Visible) -->
+<div class="space-y-lg" id="step-1">
+<div>
+<h1 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-secondary mb-xs">
+                                Let's start with the basics.
+                            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-[600px]">
+                                We're so glad you're here. To make sure you're applying for the right program, we just need to confirm a couple of quick details. There are no wrong answers!
+                            </p>
+</div>
+<form class="space-y-xl">
+<!-- Education Question -->
+<fieldset>
+<legend class="font-title-md text-title-md text-on-surface mb-md">Have you completed your 12th grade (or equivalent) education?</legend>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-sm">
+<label class="radio-card relative flex cursor-pointer rounded-xl border-2 border-outline-variant bg-surface-container-lowest p-md focus:outline-none hover:border-outline transition-colors duration-200">
+<input aria-describedby="edu-yes-desc" aria-labelledby="edu-yes-label" class="sr-only" name="education" type="radio" value="yes">
+<div class="flex w-full items-center justify-between">
+<div class="flex items-center">
+<div class="text-sm">
+<p class="font-label-sm text-label-sm text-on-surface mb-1" id="edu-yes-label">Yes, I have</p>
+<div class="font-body-md text-body-md text-on-surface-variant text-sm" id="edu-yes-desc">I have passed my 12th standard exams.</div>
+</div>
+</div>
+<div class="shrink-0 text-primary-container hidden radio-checked-icon">
+<span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+</div>
+</div>
+</label>
+<label class="radio-card relative flex cursor-pointer rounded-xl border-2 border-outline-variant bg-surface-container-lowest p-md focus:outline-none hover:border-outline transition-colors duration-200">
+<input aria-describedby="edu-no-desc" aria-labelledby="edu-no-label" class="sr-only" name="education" type="radio" value="no">
+<div class="flex w-full items-center justify-between">
+<div class="flex items-center">
+<div class="text-sm">
+<p class="font-label-sm text-label-sm text-on-surface mb-1" id="edu-no-label">Not yet</p>
+<div class="font-body-md text-body-md text-on-surface-variant text-sm" id="edu-no-desc">I am currently studying or have other plans.</div>
+</div>
+</div>
+<div class="shrink-0 text-primary-container hidden radio-checked-icon">
+<span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">check_circle</span>
+</div>
+</div>
+</label>
+</div>
+</fieldset>
+<!-- Income Question -->
+<fieldset>
+<legend class="font-title-md text-title-md text-on-surface mb-md">What is your annual family income bracket?</legend>
+<p class="text-sm font-body-md text-on-surface-variant mb-md -mt-2">This helps us determine eligibility for financial support scholarships.</p>
+<div class="space-y-sm">
+<label class="radio-card relative flex cursor-pointer rounded-xl border-2 border-outline-variant bg-surface-container-lowest p-md focus:outline-none hover:border-outline transition-colors duration-200">
+<input class="sr-only" name="income" type="radio" value="tier1">
+<span class="font-label-sm text-label-sm text-on-surface">Below ₹2,50,000</span>
+</label>
+<label class="radio-card relative flex cursor-pointer rounded-xl border-2 border-outline-variant bg-surface-container-lowest p-md focus:outline-none hover:border-outline transition-colors duration-200">
+<input class="sr-only" name="income" type="radio" value="tier2">
+<span class="font-label-sm text-label-sm text-on-surface">₹2,50,001 - ₹5,00,000</span>
+</label>
+<label class="radio-card relative flex cursor-pointer rounded-xl border-2 border-outline-variant bg-surface-container-lowest p-md focus:outline-none hover:border-outline transition-colors duration-200">
+<input class="sr-only" name="income" type="radio" value="tier3">
+<span class="font-label-sm text-label-sm text-on-surface">Above ₹5,00,000</span>
+</label>
+</div>
+</fieldset>
+</form>
+</div>
+<!-- Action Area -->
+<div class="mt-xl pt-lg border-t border-surface-container-high flex flex-col-reverse md:flex-row items-center justify-between gap-md">
+<button class="w-full md:w-auto px-6 py-3 font-label-sm text-label-sm font-semibold text-secondary hover:bg-surface-container rounded-lg transition-colors duration-200 flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+                            Save for later
+                        </button>
+<button class="w-full md:w-auto px-8 py-3 bg-primary-container hover:bg-[#d98c0a] text-on-secondary-fixed font-label-sm text-label-sm font-semibold rounded-lg shadow-sm transition-all duration-200 flex items-center justify-center gap-2" type="button">
+                            Continue to Next Step
+                            <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Supportive Footer Note -->
+<div class="text-center mt-md opacity-70">
+<p class="font-label-sm text-label-sm flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+                        Your information is saved securely and kept strictly confidential.
+                    </p>
+</div>
+</div>
+<!-- Supportive Context Sidebar -->
+<aside class="lg:col-span-4 space-y-md mt-md lg:mt-xl lg:pt-lg">
+<!-- Process Workflow -->
+<div class="bg-surface-container-lowest rounded-xl shadow-soft p-md border border-surface-container-high/50">
+<div class="flex items-center gap-2 mb-md text-secondary">
+<span class="material-symbols-outlined">route</span>
+<h3 class="font-title-md text-title-md">How Your Application is Processed</h3>
+</div>
+<ol class="list-decimal list-outside ml-4 font-body-md text-body-md text-on-surface-variant space-y-2">
+<li class="">Application</li>
+<li class="">Screening</li>
+<li class="">Document Verification</li>
+<li class="">Shortlisting</li>
+<li class="">Interview</li>
+<li class="">Final Decision</li>
+<li class="">Offer &amp; Agreement</li>
+<li class="">Admission Confirmation</li>
+<li class="">Disbursement</li>
+</ol>
+</div>
+<!-- Privacy & Security -->
+<div class="bg-surface-container-lowest rounded-xl shadow-soft p-md border border-surface-container-high/50">
+<div class="flex items-center gap-2 mb-sm text-secondary">
+<span class="material-symbols-outlined">shield_lock</span>
+<h3 class="font-title-md text-title-md">Privacy &amp; Security</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Your information is read only by Sheetal Jotwani, our career counsellor, and Omkar Mungekar, who runs programme communication.
+            </p>
+</div>
+<!-- Financial Support Info -->
+<div class="bg-surface-container-lowest rounded-xl shadow-soft p-md border border-surface-container-high/50">
+<div class="flex items-center gap-2 mb-sm text-secondary">
+<span class="material-symbols-outlined">payments</span>
+<h3 class="font-title-md text-title-md">Financial Support</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Financial support is arranged directly with selected students and paid from Tritorc’s own funds. Tritorc decides, per student, whether the grant is a one-time award or renewable — renewal is contingent on maintaining a CGPA of 7. Our first supported student received ₹14 lakh toward an engineering degree.
+            </p>
+</div>
+
+</aside>
+</main>
+<script>
+        // Simple script to toggle checked icon visibility for the custom radio cards
+        document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', function() {
+                // Find parent fieldset to scope the search
+                const fieldset = this.closest('fieldset');
+                // Hide all icons in this group
+                fieldset.querySelectorAll('.radio-checked-icon').forEach(icon => {
+                    icon.classList.add('hidden');
+                });
+                // Show icon for checked
+                const container = this.closest('.radio-card');
+                const icon = container.querySelector('.radio-checked-icon');
+                if(icon) icon.classList.remove('hidden');
+            });
+        });
+    </script>
+
+
+<footer style="background:#f2f4f6;border-top:1px solid #e6e8ea;margin-top:auto">
+<div style="max-width:1200px;margin:0 auto;padding:48px 16px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:40px">
+<div>
+<p style="margin:0;font-size:20px;font-weight:700;color:#855300">Get Your Purpose</p>
+<p style="margin:10px 0 0;font-size:16px;color:#534434;display:flex;align-items:center;gap:10px;flex-wrap:wrap">An initiative by <a href="https://www.tritorc.com/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;text-decoration:none"><img alt="Tritorc" src="https://www.tritorc.com/images/logo.png" style="height:24px;width:auto;object-fit:contain"></a> <span>— manufacturing in Mumbai since 1989.</span></p>
+<p style="margin:16px 0 0;font-size:14px;color:#534434">© 2026 Get Your Purpose. All rights reserved.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:48px">
+<div>
+<p style="margin:0 0 12px;font-size:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#191c1e">Programme</p>
+<div style="display:flex;flex-direction:column;gap:8px">
+<a href="about.html" style="font-size:16px;color:#534434;text-decoration:none">About us</a>
+<a href="apply.html" style="font-size:16px;color:#534434;text-decoration:none">Apply</a>
+<a href="home.html#how-it-works" style="font-size:16px;color:#534434;text-decoration:none">How it works</a>
+</div>
+</div>
+<div>
+<p style="margin:0 0 12px;font-size:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#191c1e">Talk to us</p>
+<div style="display:flex;flex-direction:column;gap:8px">
+<a href="contact.html" style="font-size:16px;color:#534434;text-decoration:none">Contact page</a>
+<a href="mailto:response@tritorc.com" style="font-size:16px;color:#534434;text-decoration:none">response@tritorc.com</a>
+<a href="tel:+918433708957" style="font-size:16px;color:#534434;text-decoration:none">+91 843 370 8957</a>
+<span style="font-size:16px;color:#534434">Thane, Maharashtra, India</span>
+</div>
+</div>
+</div>
+</div>
+</footer></body></html>

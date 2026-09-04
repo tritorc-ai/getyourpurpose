@@ -1,0 +1,286 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Contact Us - Get Your Purpose</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-bright": "#f7f9fb",
+                    "on-primary-fixed": "#2a1700",
+                    "secondary": "#4059aa",
+                    "outline": "#867461",
+                    "surface-container-highest": "#e0e3e5",
+                    "surface": "#f7f9fb",
+                    "on-tertiary-fixed": "#001e2d",
+                    "on-secondary": "#ffffff",
+                    "error": "#ba1a1a",
+                    "secondary-container": "#8fa7fe",
+                    "on-error": "#ffffff",
+                    "on-secondary-fixed-variant": "#264191",
+                    "on-tertiary-fixed-variant": "#004c6a",
+                    "primary-fixed-dim": "#ffb95f",
+                    "primary-container": "#f59e0b",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary-fixed": "#dce1ff",
+                    "on-primary": "#ffffff",
+                    "primary": "#855300",
+                    "error-container": "#ffdad6",
+                    "tertiary": "#00658b",
+                    "on-error-container": "#93000a",
+                    "surface-tint": "#855300",
+                    "on-surface": "#191c1e",
+                    "on-primary-container": "#613b00",
+                    "tertiary-fixed": "#c5e7ff",
+                    "surface-dim": "#d8dadc",
+                    "surface-variant": "#e0e3e5",
+                    "surface-container-high": "#e6e8ea",
+                    "on-tertiary-container": "#004966",
+                    "surface-container": "#eceef0",
+                    "on-secondary-fixed": "#00164e",
+                    "outline-variant": "#d8c3ad",
+                    "on-primary-fixed-variant": "#653e00",
+                    "on-tertiary": "#ffffff",
+                    "inverse-on-surface": "#eff1f3",
+                    "surface-container-low": "#f2f4f6",
+                    "on-surface-variant": "#534434",
+                    "on-secondary-container": "#1d3989",
+                    "inverse-primary": "#ffb95f",
+                    "primary-fixed": "#ffddb8",
+                    "on-background": "#191c1e",
+                    "inverse-surface": "#2d3133",
+                    "background": "#f7f9fb",
+                    "tertiary-container": "#1abdff",
+                    "secondary-fixed-dim": "#b6c4ff",
+                    "tertiary-fixed-dim": "#7fd0ff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "md": "24px",
+                    "base": "4px",
+                    "margin-mobile": "16px",
+                    "max-width": "1200px",
+                    "xl": "64px",
+                    "margin-desktop": "auto",
+                    "xs": "8px",
+                    "sm": "16px",
+                    "lg": "40px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "display-lg": ["Public Sans"],
+                    "title-md": ["Public Sans"],
+                    "label-sm": ["Public Sans"],
+                    "body-lg": ["Public Sans"],
+                    "headline-lg": ["Public Sans"],
+                    "body-md": ["Public Sans"],
+                    "headline-lg-mobile": ["Public Sans"]
+            },
+            "fontSize": {
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "title-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "label-sm": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .soft-shadow {
+            box-shadow: 0 10px 30px -5px rgba(30, 58, 138, 0.08), 0 4px 10px -5px rgba(30, 58, 138, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-surface-bright text-on-surface font-body-md antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col">
+<!-- TopNavBar (Shared Component) -->
+<header class="bg-surface-bright shadow-sm docked full-width top-0 z-50 sticky">
+<div class="flex justify-between items-center w-full px-margin-desktop max-w-max-width mx-auto h-20 md:px-md px-margin-mobile">
+<!-- Brand Logo -->
+<a class="font-display-lg text-display-lg font-bold text-primary dark:text-primary-fixed-dim" href="#">
+                Get Your Purpose
+            </a>
+<!-- Desktop Navigation -->
+<nav class="hidden md:flex items-center gap-md font-label-sm text-label-sm font-semibold">
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200" href="#">About Us</a>
+<a class="text-primary dark:text-primary-fixed-dim border-b-2 border-primary pb-1 opacity-80 transition-all" href="#">Contact</a>
+</nav>
+<!-- Trailing Action & Mobile Menu -->
+<div class="flex items-center gap-sm">
+<a class="hidden md:inline-flex items-center justify-center bg-primary-container text-on-primary-fixed font-label-sm text-label-sm font-semibold px-sm h-[48px] rounded-lg hover:opacity-90 transition-opacity" href="#">
+                    Apply Now
+                </a>
+<button class="md:hidden text-primary p-xs rounded-full hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow w-full max-w-max-width mx-auto px-margin-mobile md:px-md py-xl flex flex-col gap-xl">
+<!-- Hero Section -->
+<section class="text-center max-w-3xl mx-auto space-y-sm">
+<h1 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">Let's Connect</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">We're here to help you and your family navigate this journey. Reach out to us through your preferred method.</p>
+</section>
+<!-- Bento Grid Layout for Contact -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-md md:gap-gutter">
+<!-- Direct Contact Channels (Left Column) -->
+<div class="lg:col-span-4 flex flex-col gap-md">
+<!-- WhatsApp Card (Primary) -->
+<a class="bg-surface-container-lowest rounded-xl p-md soft-shadow flex items-start gap-sm group hover:scale-[1.02] transition-transform duration-300" href="#">
+<div class="bg-primary-container/10 p-xs rounded-full text-primary-container shrink-0 mt-1">
+<span class="material-symbols-outlined" data-icon="chat" style="font-variation-settings: 'FILL' 1;">chat</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface mb-1 group-hover:text-primary-container transition-colors">WhatsApp Us</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-2">Fastest way to get answers.</p>
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-1">
+                            Message now <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</span>
+</div>
+</a>
+<!-- Phone Card -->
+<a class="bg-surface-container-lowest rounded-xl p-md soft-shadow flex items-start gap-sm group hover:scale-[1.02] transition-transform duration-300" href="tel:+1234567890">
+<div class="bg-secondary/10 p-xs rounded-full text-secondary shrink-0 mt-1">
+<span class="material-symbols-outlined" data-icon="call" style="font-variation-settings: 'FILL' 1;">call</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface mb-1 group-hover:text-secondary transition-colors">Call Us</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-2">Mon-Fri, 9am-5pm EST.</p>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">+1 (555) 123-4567</span>
+</div>
+</a>
+<!-- Email Card -->
+<a class="bg-surface-container-lowest rounded-xl p-md soft-shadow flex items-start gap-sm group hover:scale-[1.02] transition-transform duration-300" href="mailto:hello@getyourpurpose.com">
+<div class="bg-tertiary/10 p-xs rounded-full text-tertiary shrink-0 mt-1">
+<span class="material-symbols-outlined" data-icon="mail" style="font-variation-settings: 'FILL' 1;">mail</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface mb-1 group-hover:text-tertiary transition-colors">Email Us</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-2">We typically reply within 24h.</p>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold break-all">hello@getyourpurpose.com</span>
+</div>
+</a>
+<!-- Decorative Image -->
+<div class="rounded-xl overflow-hidden soft-shadow hidden lg:block h-48 relative bg-surface-container">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-90" data-alt="Industrial visual representing Tritorc's manufacturing heritage" src="https://lh3.googleusercontent.com/aida/AEtjO1VkyAjeFMvMv0Dn6K7_b8GNBunVgJyq9A_rY8civo5qyVIhfNS1EtdNbxIrXpkoNgS24Q2v011ww8M7yelrR0nOSdHLFolgwoN78D1PHHjMlxcOCyPIV7ZheUFnLB03VeWunxIlLfoNp0Jh5mOPXAYm1EGX7X_UUF9nETPYPYXvIHXgUTvZfhyez2q9a3B9OHSwHABxUZ1C0PZ6Zz-NXfxpPQrdlk3JXH_mLeYQC8GqbNMEW71wKwTFaHIu">
+</div><div class="bg-surface-container-lowest rounded-xl p-md soft-shadow flex items-start gap-sm">
+<div class="bg-primary-container/10 p-xs rounded-full text-primary-container shrink-0 mt-1">
+<span class="material-symbols-outlined" data-icon="location_on" style="font-variation-settings: 'FILL' 1;">location_on</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-on-surface mb-1">Head Office</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Tritorc Head Office, Thane, Maharashtra, India</p>
+</div>
+</div>
+</div>
+<!-- Contact Form (Right Column) -->
+<div class="lg:col-span-8">
+<div class="bg-surface-container-lowest rounded-xl p-md lg:p-lg soft-shadow h-full relative overflow-hidden">
+<div class="absolute inset-0 opacity-5 pointer-events-none mix-blend-multiply" style="background-image: url('https://lh3.googleusercontent.com/aida/AEtjO1VhAbLE3_OnqDNz8pGh0cpfddKbd4yReCZXmi2aYcWXJhu0d4jW1ArIyR3T1hLg30PfbxidH037xX_MumBoXmUbyV4L9_FkF3mqZGjlLX1otlkI40J7DHNumAsGMVYX-2guwyyC1MqCWyg0LluWE0fS-iOGjAjFTVzb2PvWORBbRqheRB9tuibjbFnLM4A2K9uw2xy0Me_iZyReOTl3YuLj2rO5aLnmrQyw883_HcZc0dkq6rrGXa_vKlyd'); background-size: cover; background-position: center;"></div>
+<div class="relative z-10">
+<h2 class="font-title-md text-title-md text-on-surface mb-sm">Send a Message</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-lg">Fill out the form below and a member of our team will get back to you shortly.</p><p class="font-body-md text-body-md text-primary font-semibold mb-lg">Our counselor and manager review every message personally and typically respond within 24-48 hours.</p>
+<form class="space-y-md">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-md">
+<!-- Name Field -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary" for="name">Full Name</label>
+<input class="rounded-lg border-outline-variant bg-surface-bright focus:border-primary-container focus:ring-1 focus:ring-primary-container text-on-surface h-[48px] px-sm transition-colors relative z-10" id="name" name="name" placeholder="Jane Doe" required="" type="text">
+</div>
+<!-- Phone Field -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary" for="phone">Phone Number</label>
+<input class="rounded-lg border-outline-variant bg-surface-bright focus:border-primary-container focus:ring-1 focus:ring-primary-container text-on-surface h-[48px] px-sm transition-colors relative z-10" id="phone" name="phone" placeholder="(555) 000-0000" type="tel">
+</div>
+</div>
+<!-- Email Field -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary" for="email">Email Address</label>
+<input class="rounded-lg border-outline-variant bg-surface-bright focus:border-primary-container focus:ring-1 focus:ring-primary-container text-on-surface h-[48px] px-sm transition-colors relative z-10" id="email" name="email" placeholder="jane@example.com" required="" type="email">
+</div>
+<!-- Message Field -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary" for="message">How can we help?</label>
+<textarea class="rounded-lg border-outline-variant bg-surface-bright focus:border-primary-container focus:ring-1 focus:ring-primary-container text-on-surface p-sm resize-none transition-colors relative z-10" id="message" name="message" placeholder="Tell us a little bit about your situation..." required="" rows="4"></textarea>
+<span class="font-body-md text-xs text-on-surface-variant opacity-80 mt-1">Your information is secure and kept confidential.</span>
+</div>
+<!-- Submit Button -->
+<button class="w-full md:w-auto inline-flex items-center justify-center gap-xs bg-primary-container text-on-primary-fixed font-label-sm text-label-sm font-semibold px-lg h-[48px] rounded-lg hover:opacity-90 hover:scale-[1.02] transition-all duration-200 relative z-10" type="submit">
+<span class="">Send Message</span>
+<span class="material-symbols-outlined text-sm" data-icon="send">send</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<section class="space-y-lg">
+<div class="text-center">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">Frequently Asked Questions</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-md">
+<div class="bg-surface-container-lowest p-md rounded-xl soft-shadow">
+<h4 class="font-title-md text-title-md text-on-surface mb-xs">Is it really free?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Yes, 100%. Our mission is to support students without any financial burden.</p>
+</div>
+<div class="bg-surface-container-lowest p-md rounded-xl soft-shadow">
+<h4 class="font-title-md text-title-md text-on-surface mb-xs">Who is eligible?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">India-based students who have completed their 12th grade are eligible to apply.</p>
+</div>
+<div class="bg-surface-container-lowest p-md rounded-xl soft-shadow">
+<h4 class="font-title-md text-title-md text-on-surface mb-xs">What documents do I need?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">You will typically need your Marksheets and an Income Certificate for verification.</p>
+</div>
+</div>
+</section></main>
+<!-- Footer (Shared Component) -->
+<footer class="bg-surface-container-low dark:bg-surface-container-lowest full-width bottom-0 mt-auto"><div class="w-full py-lg px-margin-mobile md:px-gutter max-w-max-width mx-auto flex flex-col md:flex-row justify-between gap-gutter items-center md:items-start">
+<!-- Brand & Copyright -->
+<div class="flex flex-col gap-3 items-center md:items-start text-center md:text-left">
+<span class="font-title-md text-title-md font-bold text-primary dark:text-primary-fixed-dim">
+                    Get Your Purpose
+                </span>
+<div class="flex items-center gap-2">
+<span class="font-body-md text-body-md text-on-surface-variant">An initiative by</span>
+<img alt="Tritorc Logo" class="h-5 object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VZFO_X0qU6sNr5214z9kwUt879VoMwVZ5whs5GzjPFY_VicVnaGGYHpe8ziQWVp7sPlw6XIYijCSqfy3j3JP23cCiNzi5qgPBT9X19pDNkOb8A1mFqEoLB8D4dNQFbaXhxrwTdAuGhRKvoS7wSDGvfB-ri9B8LlwIIKDfhqQbxmSvj08qkJBKXsR2HHIhU0ftnk3hmZJsZIWGmnRrYwpXE6vTgrobr0pKq6bdYypF--8M7tnjJj2p0I_ry">
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    © 2024 Get Your Purpose. 35+ years of heritage.
+                </p>
+</div>
+<!-- Links -->
+<div class="flex flex-wrap justify-center md:justify-end gap-4 font-body-md text-body-md">
+<a class="text-secondary dark:text-secondary-fixed text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-all hover:scale-95 duration-150" href="#">
+                    WhatsApp
+                </a>
+<a class="text-secondary dark:text-secondary-fixed text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-all hover:scale-95 duration-150" href="#">
+                    Phone
+                </a>
+<a class="text-secondary dark:text-secondary-fixed text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-all hover:scale-95 duration-150" href="#">
+                    Email
+                </a>
+<a class="text-secondary dark:text-secondary-fixed text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim underline transition-all hover:scale-95 duration-150" href="#">
+                    Mission Statement
+                </a>
+</div>
+</div></footer>
+
+
+</body></html>
