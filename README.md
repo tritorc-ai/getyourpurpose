@@ -51,6 +51,20 @@ npm run build
 
 Output is written to `dist/`.
 
+## Deploying on Vercel
+
+The repo includes a `vercel.json` that:
+
+- Runs `npm run build` and serves `dist/` as the output directory
+- Rewrites all paths to `index.html` so client-side routes (`/about`, `/apply`, `/contact`) work on direct load/refresh, not just in-app navigation
+
+To deploy:
+
+1. Import this repository into Vercel ([vercel.com/new](https://vercel.com/new)).
+2. Vercel auto-detects the Vite framework preset — no extra configuration needed. Build command, output directory, and install command all use their defaults (`npm run build`, `dist`, `npm install`).
+3. No environment variables are required.
+4. Deploy. Every push to `main` will trigger a new production deployment.
+
 ## Known follow-ups
 
 - The Contact page form and the Apply page flow are front-end only — no backend is wired up yet (see the `TODO` in `Contact.jsx`). Hook up a form service (e.g. Formspree, Netlify Forms) or a custom API endpoint before launch.
